@@ -1,0 +1,13 @@
+{
+  "name": "org-store-link",
+  "version": "1.0",
+  "description": "org-store-link",
+  "permissions": ["tabs", "http://localhost:4444/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+  },
+  "manifest_version": 2
+}
